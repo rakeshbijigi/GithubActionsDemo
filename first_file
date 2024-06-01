@@ -1,3 +1,4 @@
 echo "Hello world"
 echo "this is first multibranch-pipeline"
 whoami
+free -m
