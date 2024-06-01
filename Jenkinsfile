@@ -1,3 +1,4 @@
+
 pipeline {
     agent any
     options {
@@ -8,6 +9,8 @@ pipeline {
         stage('Example') {
             steps {
                 echo 'Hello World'
+
+		echo 'this is first multibranch pipeline'
             }
         }
     }
