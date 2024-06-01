@@ -6,4 +6,6 @@ jobs:
     steps:
       - name: my-step
         run: echo "Hello World!"
-        run: echo "welcome to first multibranchpipeline demo"
+         
+      - name: my-step1
+        run: echo "welcome to first multibranchpipeline demo!"
