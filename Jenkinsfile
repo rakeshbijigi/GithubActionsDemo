@@ -11,6 +11,7 @@ pipeline {
                 echo 'Hello World'
 
 		echo 'this is first multibranch pipeline'
+		echo 'triggering pipeline using poll scm'    
             }
         }
     }
